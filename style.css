@@ -11,7 +11,6 @@ body {
 .movies {
   padding: 2rem 2rem;
   display: flex;
-  flex-direction: row;
   align-items: center;
   row-gap: 10px;
   column-gap: 10px;
@@ -45,6 +44,25 @@ body {
 }
 
 video {
+  margin-top: 20px;
   cursor: pointer;
   filter: drop-shadow(0px 0px 20px rgba(255, 255, 255, 0.1));
+}
+button a {
+  text-decoration: none;
+  color: #000;
+}
+button {
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+div h1 {
+  padding: 2rem 2rem 0 2rem;
+  font-size: 30px;
+  color: #fff;
 }
