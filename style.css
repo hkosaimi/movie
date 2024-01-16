@@ -21,8 +21,8 @@ body {
   background-image: url("FantasticBeasts1.jpg");
   background-position: center;
   background-size: contain;
-  width: 100px;
-  height: 110px;
+  width: 200px;
+  height: 210px;
   cursor: pointer;
   border-radius: 7px;
 }
@@ -34,8 +34,8 @@ body {
   background-image: url("sunsetlimited.jpg");
   background-position: center;
   background-size: cover;
-  width: 100px;
-  height: 110px;
+  width: 200px;
+  height: 210px;
   cursor: pointer;
   border-radius: 7px;
 }
