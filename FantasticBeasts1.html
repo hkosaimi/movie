@@ -24,18 +24,14 @@
     <script>
       const videoElement = document.getElementById("fullscreenVideo");
 
-      // Toggle fullscreen on video click
-      videoElement.addEventListener("click", toggleFullscreen);
-
-      function toggleFullscreen() {
-        if (!document.fullscreenElement) {
-          videoElement.requestFullscreen().catch((err) => {
-            console.error("Error attempting to enable full-screen mode:", err.message);
-          });
-        } else {
-          document.exitFullscreen();
+      // Listen for the 'play' event
+      videoElement.onclick = () => {
+        // Check if the browser supports the Fullscreen API
+        if (videoElement.requestFullscreen) {
+          // Request fullscreen mode
+          videoElement.requestFullscreen();
         }
-      }
+      };
     </script>
   </body>
 </html>
