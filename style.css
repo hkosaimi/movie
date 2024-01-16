@@ -18,7 +18,7 @@ body {
 }
 
 .FantasticBeasts1 {
-  background-image: url("/FantasticBeasts1.jpg");
+  background-image: url("FantasticBeasts1.jpg");
   background-position: center;
   background-size: contain;
   width: 100px;
@@ -31,7 +31,7 @@ body {
   filter: brightness(75%);
 }
 .sunsetlimited {
-  background-image: url("/sunsetlimited.jpg");
+  background-image: url("sunsetlimited.jpg");
   background-position: center;
   background-size: cover;
   width: 100px;

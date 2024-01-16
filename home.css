@@ -1,7 +1,7 @@
 .header {
   padding: 2rem 4rem;
   display: flex;
-  font-size: 14px;
+  font-size: 16px;
   justify-content: center;
   column-gap: 20px;
 }
